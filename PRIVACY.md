@@ -21,6 +21,9 @@ server's administrator run. The developer of Lummn never receives any of it.
   ones you choose to your Immich server. Nothing is sent anywhere else.
 - **Local network:** with your permission, Lummn looks for Immich servers on your network to fill
   in the server address for you.
+- **Wi-Fi network name:** if you choose home networks for your server's local address, Lummn
+  reads the name of the Wi-Fi network you're on, which iOS allows only with location permission.
+  The name stays on your device; your location isn't read or stored.
 
 ## Contact
 
