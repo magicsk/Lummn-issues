@@ -1,0 +1,32 @@
+name: Bug report
+description: Something in Lummn doesn't work as it should.
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead? Screenshots or a screen recording help a lot.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Tap …
+  - type: input
+    attributes:
+      label: Lummn version
+      description: Settings > About > Version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Device and OS
+      placeholder: iPhone 17 Pro, iOS 27.1
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Immich server version
+      placeholder: v3.3.0

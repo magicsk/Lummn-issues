@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problem with your Immich server
+    url: https://github.com/immich-app/immich/issues
+    about: If it also happens in the official Immich app or web interface, report it to Immich.
